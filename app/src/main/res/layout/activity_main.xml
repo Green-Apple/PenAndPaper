@@ -9,7 +9,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="244dp"
+        tools:layout_editor_absoluteY="0dp">
 
         <TextView
             android:id="@+id/textView"
@@ -30,13 +33,19 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="152dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center_vertical|center"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:background="@android:drawable/alert_light_frame"
+            android:fontFamily="sans-serif-smallcaps"
+            android:onClick="onClickButton"
             android:text="@string/mainMenuStartButton"
+            android:textSize="24sp"
+            android:typeface="normal"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
