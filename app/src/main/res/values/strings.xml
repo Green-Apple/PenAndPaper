@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PenAndPaper</string>
+    <string name="mainMenuStartButton">Play</string>
+    <string name="mainMenuHeaderLabel"><![CDATA[Pen & Paper]]></string>
 </resources>
